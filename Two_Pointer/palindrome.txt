@@ -1,0 +1,30 @@
+s="level"
+s_rev = s.reverse()
+
+i=0
+
+while i<s.length:
+    if s[i] != s_rev[i];
+        print("nhi hai palindrome")
+        return
+    i=i+1
+print("Hai palindrome")
+
+//s: 0(n)
+//t: 0(n)
+
+----------------------------------------
+
+s="level"
+i=0;
+j=s.length-1;
+while(i<j){
+    if s[i] != s[j]:
+        print("nahi hai palindrome")
+        return
+    i=i+1
+    j=j+1
+
+    print("yeh hai palindrome")    
+}
+
